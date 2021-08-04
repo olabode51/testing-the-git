@@ -5,4 +5,5 @@ c <- c(5,5,6,7,7)
 d <- data.frame(a,b,c)
 d
 colnames(d) <- c("first","second","third")
-d
+d$first
+
